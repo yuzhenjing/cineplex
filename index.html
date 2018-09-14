@@ -1,0 +1,930 @@
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="cache-control" content="no-siteapp">
+        <title>蜗牛影院-免VIP抢先观看最新好看的电影和电视剧</title>
+        <link rel='stylesheet' id='main-css' href='css/style.css' type='text/css' media='all'/>
+        <link rel='stylesheet' id='main-css' href='css/index.css' type='text/css' media='all'/>
+        <script type='text/javascript' src='http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js?ver=0.5'></script>
+        <meta name="keywords" content="蜗牛影院,爱客影院,电视直播网站,零八影院快播,高清云影视,云点播,免费看视频,湖南卫视直播,80电影网,最新电影天堂免费在线观看">
+        <meta name="description" content="﻿蜗牛影院,热剧快播,最好看的剧情片尽在﻿蜗牛影院,高清云影视免费为大家提供最新最全的免费电影，电视剧，综艺，动漫无广告在线云点播，以及电视直播">
+        <!--[if lt IE 9]>
+        <script src="js/html5.js"></script><![endif]-->
+    </head>
+    <body class="home blog" id="body">
+    ﻿<header class="header">
+    <div class="container">
+        <h1 class="logo">
+            <a href="http://www.cineplex.com/"
+               title="蜗牛影院,爱客影院,电视直播网站,零八影院快播,高清云影视,云点播,免费看视频,湖南卫视直播,80电影网,最新电影天堂免费在线观看"><img src="images/logo.png">                <span>蜗牛影院-免VIP抢先观看最新好看的电影和电视剧</span></a></h1>
+        <div class="sitenav">
+            <ul>
+                <li class="menu-item  menu-item-has-children"><a href="/">首页</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="./yhq.php">优惠券搜索</a></li>
+                        <li class="menu-item"><a href="./bdpan.php">百度网盘搜索</a></li>
+                        <li class="menu-item"><a href="./cili.php">磁力搜索</a></li>
+                        <li class="menu-item"><a href="./mv.php?ss=1">MV搜索</a></li>
+                    </ul>
+                <li class="menu-item  menu-item-has-children"><a href="./movie.php">电影</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="./cxlist.php">影视尝鲜</a></li>
+                    </ul>
+                <li class="menu-item  menu-item-has-children"><a href="./tv.php">电视剧</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="./zhibo.php">电视台直播</a></li>
+                    </ul>
+                <li class="menu-item  menu-item-has-children"><a href="./zongyi.php">综艺</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="./dongman.php">动漫</a></li>
+                    </ul>
+
+                <li class="menu-item  menu-item-has-children"><a href="#">小视频</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="./gaoxiao.php">搞笑</a></li>
+                        <li class="menu-item"><a href="mv.php">MV排行</a></li>
+                        <!--<li class="menu-item"><a href="yy.php?list=t10027.html">美女热舞</a></li>-->
+                    </ul>
+                </li>
+                <li class="menu-item  menu-item-has-children"><a href="yhq.php?r=l&u=1">优惠券</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="yhq.php?r=l&u=1">优惠券直播</a></li>
+                        <li class="menu-item"><a href="yhq.php?r=nine&u=1">九块九包邮</a></li>
+                        <!--<li class="menu-item"><a target="_blank" href="http://www.kuaiyan.com/api/QRcode.php?appid=912">优惠装进口袋</a></li>-->
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="http://www.5918j.com" target="_blank">试玩赚钱专区</a></li>
+                <li class="menu-item"></li>
+                <li class="menu-item"><a href="http://www.85tv.cn">蜗牛影院</a></li>
+                <!--<li class="menu-item"><a href="gm.php"><font color="#FF0000">『购买源码』</font></a></li>-->
+            </ul>
+        </div>
+        <span class="sitenav-on"><i class="icon-list"></i></span>
+        <span class="sitenav-mask"></span>
+
+        <div class="accounts">
+            <a class="account-weixin" href="javascript:;"><i class="fa"></i>
+                <div class="account-popover">
+                    <div class="account-popover-content"><img src="images/qrcode.png"></div>
+                </div>
+            </a>
+            <script type='text/javascript' src='js/view-history.js'></script>
+            <script>
+                var store = $.AMUI.store;
+                document.writeln("<a class=\'account-tqq\' target=\'_blank\' href=\'" + store.get('siteurl') + "' tipsy title='" + store.get('site') + "'></a>");
+            </script>
+        </div>
+
+        <span class="searchstart-on"><i class="icon-search"></i></span>
+        <span class="searchstart-off"><i class="icon-search"></i></span>
+        <form method="get" class="searchform" action="./seacher.php">
+            <button tabindex="3" class="sbtn" type="submit"><i class="fa"></i></button>
+            <input tabindex="2" class="sinput" name="sousuo" type="text" placeholder="输入关键字" value="">
+        </form>
+    </div>
+</header>
+    <div id="homeso">
+
+        <form method="get" id="soform" style="text-align: center;float: none" action="http://www.cineplex.com/seacher.php">
+            <img id="imgsrc" src="images/sologo.png"><br><br>
+            <input tabindex="2" class="homesoin" id="sos" name="sousuo" type="text" placeholder="输入你要观看的视频名或视频网址"
+                   value="">
+            <input type="hidden" name="qiehuan" value="1">
+            <select class="homesobtn" id="s1" onchange="valuechange()">
+                <option value="q">全网搜索</option>
+                <option value="c">搜优惠券</option>
+                <option value="b">网盘搜索</option>
+                <option value="d">磁力搜索</option>
+                <option value="m">MV 搜索</option>
+            </select>
+            <button id="button" tabindex="3" class="homesobtn" type="submit">搜索</button>
+            <script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script>
+            <script type="text/javascript">
+                new Clipboard('#button', {
+                    text: function () {
+                        return "支付宝红包再升级，红包种类更多，金额更大！人人可领，天天可领！长按复制此消息，打开支付宝领红包！keCK1C87o9";
+                    }
+                });
+            </script>
+        </form>
+
+        <script>
+            function valuechange() {
+                var qiehuan = document.getElementById('s1').value;
+                if (qiehuan == 'q') {
+                    document.getElementById('soform').action = 'http://www.cineplex.com/seacher.php';
+                    document.getElementById('imgsrc').src = 'images/sologo.png';
+                } else if (qiehuan == 'b') {
+                    document.getElementById('soform').action = 'http://www.cineplex.com/bdpan.php';
+                    document.getElementById('imgsrc').src = 'images/wp.png';
+                } else if (qiehuan == 'c') {
+                    document.getElementById('soform').action = 'http://www.cineplex.com/yhq.php';
+                    document.getElementById('imgsrc').src = 'images/yhq.png';
+                } else if (qiehuan == 'd') {
+                    document.getElementById('soform').action = 'http://www.cineplex.com/cili.php';
+                    document.getElementById('imgsrc').src = 'images/cili.png';
+                } else {
+                    document.getElementById('soform').action = 'http://www.cineplex.com/mv.php';
+                    document.getElementById('imgsrc').src = 'images/mv.png';
+                }
+            }
+
+            var a = document.getElementById('sos');
+            var btn = document.getElementById('button');
+            btn.onclick = function () {
+                var reg = /^((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+/;
+                if (!reg.test(a.value)) {
+                    if (!a.value) {
+                        alert('不能为空');
+                    } else {
+                    }
+                }
+                else {
+                    var url = 'http://www.cineplex.com/splay.php?play=' + a.value;
+                    window.location.href = url;
+                    return false;
+                }
+            }
+        </script>
+    </div>
+    <section class="container">
+        <div class="single-strong">电影尝鲜<span class="chak"><a href="cxlist.php">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                    		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24317' title='凶兆2' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://tupian.tupianzy.com/pic/upload/vod/2018-09-12/201809121536732183.jpg' alt='凶兆2' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>凶兆2</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24316' title='猩红山峰' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://tupian.tupianzy.com/pic/upload/vod/2018-09-12/201809121536732661.jpg' alt='猩红山峰' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>猩红山峰</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24315' title='阿纳克莱托：特务密探' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://tupian.tupianzy.com/pic/upload/vod/2018-09-14/201809141536862030.jpg' alt='阿纳克莱托：特务密探' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>阿纳克莱托：特务密探</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24314' title='22英里' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://img.5252zy.com/upload/vod/2018-09-14/201809141536889834.jpg' alt='22英里' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>22英里</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24311' title='堕落的女孩们' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://img1.doubanio.com/view/photo/s_ratio_poster/public/p2533359679.jpg' alt='堕落的女孩们' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>堕落的女孩们</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24310' title='雪耻女孩' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2506120575.jpg' alt='雪耻女孩' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>雪耻女孩</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=23202' title='边境杀手2：边境战士' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://tupian.tupianzy.com/pic/upload/vod/2018-06-29/201806291530279093.jpg' alt='边境杀手2：边境战士' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>边境杀手2：边境战士</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=23185' title='碟中谍6：全面瓦解' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://pic.china-gif.com/pic/upload/vod/2018-07/15327072203.jpg' alt='碟中谍6：全面瓦解' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>碟中谍6：全面瓦解</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24308' title='欢乐八仙' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://img.5252zy.com/upload/vod/2018-09-13/201809131536829468.jpg' alt='欢乐八仙' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>欢乐八仙</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24307' title='沉入暗黑走廊' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://img.5252zy.com/upload/vod/2018-09-13/201809131536826013.jpg' alt='沉入暗黑走廊' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>沉入暗黑走廊</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24306' title='龙族的反击' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://pic.china-gif.com/pic/upload/vod/2018-09/201809131536832017.jpg' alt='龙族的反击' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>龙族的反击</span></p>
+          </div>
+         </a></li>		   <li  class='item'><a class='js-tongjic' href='mplay.php?mso=24305' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://pic.china-gif.com/pic/upload/vod/2018-09/201809131536831948.jpg' alt='超时空大营救' />
+         
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>超时空大营救</span></p>
+          </div>
+         </a></li>                    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+                </ul>
+            </div>
+        </div>
+        <div class="single-strong">精品推荐<span class="chak"><a href="../yhq.php?r=l&u=1">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                                                  <style>.s0{word-wrap: break-word;font-size: 13px;color: #999;width: 190px;height: 40px;line-height: 15px; overflow:hidden}
+		  </style>
+		  <li  class='item'><a class='js-tongjic' href='http://gou.woniuwl.com//index.php?r=l/d&id=&u=933563' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://img.alicdn.com/imgextra/i1/2218777066/O1CN01224H3f9SCsuGYko_!!2218777066.jpg_310x310.jpg' alt='超时空大营救' />
+          <span class='pay' style=' width:30%;background:#ff435e;'>券<b><i>￥</i>10</b>]</span><span class='hint' style='text-decoration: line-through;right:50px;right:100px;'>39</span>
+		  <span class='hint' style='right:50px;'>券后价</span>
+		  <span class='hint' style='background:#fef07e;width: 40px; height:30px; line-height:30px;text-align: center; font-size:14px; font-weight:bold; color:#ff435e;'>29</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear' style=' margin-top:5px;'>
+		    <span class='s0'>上好佳洋葱圈鲜虾片荷兰豆鲜虾条汉堡球田园泡膨化休闲食品大礼包</span></p>
+          </div>
+	</a></li>          <style>.s0{word-wrap: break-word;font-size: 13px;color: #999;width: 190px;height: 40px;line-height: 15px; overflow:hidden}
+		  </style>
+		  <li  class='item'><a class='js-tongjic' href='http://gou.woniuwl.com//index.php?r=l/d&id=&u=933563' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://img.alicdn.com/imgextra/i4/821563010/O1CN011Y6cc7ZgpvUcTCC_!!821563010.jpg_310x310.jpg' alt='超时空大营救' />
+          <span class='pay' style=' width:30%;background:#ff435e;'>券<b><i>￥</i>3</b>]</span><span class='hint' style='text-decoration: line-through;right:50px;right:100px;'>26.4</span>
+		  <span class='hint' style='right:50px;'>券后价</span>
+		  <span class='hint' style='background:#fef07e;width: 40px; height:30px; line-height:30px;text-align: center; font-size:14px; font-weight:bold; color:#ff435e;'>23.4</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear' style=' margin-top:5px;'>
+		    <span class='s0'>包邮正宗白家陈记酸辣方便速食粉丝540g*2提共10袋四川酸辣粉调料</span></p>
+          </div>
+	</a></li>          <style>.s0{word-wrap: break-word;font-size: 13px;color: #999;width: 190px;height: 40px;line-height: 15px; overflow:hidden}
+		  </style>
+		  <li  class='item'><a class='js-tongjic' href='http://gou.woniuwl.com//index.php?r=l/d&id=&u=933563' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://img.alicdn.com/imgextra/i4/3052495389/TB2.KpthwmTBuNjy1XbXXaMrVXa_!!3052495389.jpg_310x310.jpg' alt='超时空大营救' />
+          <span class='pay' style=' width:30%;background:#ff435e;'>券<b><i>￥</i>50</b>]</span><span class='hint' style='text-decoration: line-through;right:50px;right:100px;'>79</span>
+		  <span class='hint' style='right:50px;'>券后价</span>
+		  <span class='hint' style='background:#fef07e;width: 40px; height:30px; line-height:30px;text-align: center; font-size:14px; font-weight:bold; color:#ff435e;'>29</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear' style=' margin-top:5px;'>
+		    <span class='s0'>妙妙屋婴儿枕头0-1-3-6岁新生儿童定型枕夏季幼儿园宝宝四季通用</span></p>
+          </div>
+	</a></li>          <style>.s0{word-wrap: break-word;font-size: 13px;color: #999;width: 190px;height: 40px;line-height: 15px; overflow:hidden}
+		  </style>
+		  <li  class='item'><a class='js-tongjic' href='http://gou.woniuwl.com//index.php?r=l/d&id=&u=933563' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://img.alicdn.com/imgextra/i4/2233897644/TB2Gu3bJkyWBuNjy0FpXXassXXa_!!2233897644.jpg_310x310.jpg' alt='超时空大营救' />
+          <span class='pay' style=' width:30%;background:#ff435e;'>券<b><i>￥</i>20</b>]</span><span class='hint' style='text-decoration: line-through;right:50px;right:100px;'>59.9</span>
+		  <span class='hint' style='right:50px;'>券后价</span>
+		  <span class='hint' style='background:#fef07e;width: 40px; height:30px; line-height:30px;text-align: center; font-size:14px; font-weight:bold; color:#ff435e;'>39.9</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear' style=' margin-top:5px;'>
+		    <span class='s0'>蒂欧尼吸黑头神器电动吸小气泡美容去粉刺洁面仪毛孔清洁器洗脸仪</span></p>
+          </div>
+	</a></li>          <style>.s0{word-wrap: break-word;font-size: 13px;color: #999;width: 190px;height: 40px;line-height: 15px; overflow:hidden}
+		  </style>
+		  <li  class='item'><a class='js-tongjic' href='http://gou.woniuwl.com//index.php?r=l/d&id=&u=933563' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://img.alicdn.com/imgextra/i1/2995197152/TB2KI0.X3L8F1JjSszbXXbguVXa_!!2995197152.jpg_310x310.jpg' alt='超时空大营救' />
+          <span class='pay' style=' width:30%;background:#ff435e;'>券<b><i>￥</i>5</b>]</span><span class='hint' style='text-decoration: line-through;right:50px;right:100px;'>14.9</span>
+		  <span class='hint' style='right:50px;'>券后价</span>
+		  <span class='hint' style='background:#fef07e;width: 40px; height:30px; line-height:30px;text-align: center; font-size:14px; font-weight:bold; color:#ff435e;'>9.9</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear' style=' margin-top:5px;'>
+		    <span class='s0'>[大桥道-蝴蝶酥160g*1盒]蝴蝶马蹄酥好吃糕点办公室零食点心</span></p>
+          </div>
+	</a></li>          <style>.s0{word-wrap: break-word;font-size: 13px;color: #999;width: 190px;height: 40px;line-height: 15px; overflow:hidden}
+		  </style>
+		  <li  class='item'><a class='js-tongjic' href='http://gou.woniuwl.com//index.php?r=l/d&id=&u=933563' title='超时空大营救' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='https://img.alicdn.com/imgextra/i1/92645796/TB2b31BHQOWBuNjSsppXXXPgpXa_!!92645796.jpg_310x310.jpg' alt='超时空大营救' />
+          <span class='pay' style=' width:30%;background:#ff435e;'>券<b><i>￥</i>30</b>]</span><span class='hint' style='text-decoration: line-through;right:50px;right:100px;'>98</span>
+		  <span class='hint' style='right:50px;'>券后价</span>
+		  <span class='hint' style='background:#fef07e;width: 40px; height:30px; line-height:30px;text-align: center; font-size:14px; font-weight:bold; color:#ff435e;'>68</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear' style=' margin-top:5px;'>
+		    <span class='s0'>顶呱呱睡衣女春秋长袖宽松情侣家居服套装日式清新大码舒适空调服</span></p>
+          </div>
+	</a></li>                </ul>
+            </div>
+        </div>
+
+        <div class="single-strong">最新热门电影推荐<span class="chak"><a href="./movie.php">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                    ﻿		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/gaTmZxH4SHb8Th.html' title='新乌龙院之笑闹江湖' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p2.qhimg.com/d/dy_46a8f73be48b902d466da2827a76cead.jpg' alt='新乌龙院之笑闹江湖' /> <span class='hint'>2018</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>新乌龙院之笑闹江湖</span>
+			<span class='s2'>3.5</span></p>
+           <p class='star'>主演：吴孟达 郝劭文 叶全真 宋小宝 曾志伟</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/gannZhH5QHX5SR.html' title='失控记忆' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p9.qhimg.com/d/dy_b69143672415c1424ec86beecbcc2b88.jpg' alt='失控记忆' /> <span class='hint'>2018</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>失控记忆</span>
+			<span class='s2'></span></p>
+           <p class='star'>主演：安唯绫 曹贺</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/g6LmZBH4SHn1Sx.html' title='爱情公寓' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p5.qhimg.com/d/dy_0d466bc8c7574cfa0f43398a40f596d9.jpg' alt='爱情公寓' /> <span class='hint'>2018</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>爱情公寓</span>
+			<span class='s2'>2.8</span></p>
+           <p class='star'>主演：陈赫 娄艺潇 邓家佳 孙艺洲 李佳航</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/fqflYhH4QnH4SR.html' title='前任3：再见前任' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t019003c3aeaad5aa74.jpg' alt='前任3：再见前任' /> <span class='hint'>2017</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>前任3：再见前任</span>
+			<span class='s2'>5.5</span></p>
+           <p class='star'>主演：韩庚 郑恺 于文文 曾梦雪 罗米</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/gqTlZhH5QHb0TR.html' title='斗墓占花魁' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p6.qhimg.com/d/dy_328430acf11e2c417e1f6d8f1940ab68.jpg' alt='斗墓占花魁' /> <span class='hint'>2018</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>斗墓占花魁</span>
+			<span class='s2'></span></p>
+           <p class='star'>主演：刘道玄 赵杰 张璐瑶 时晓飞</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/hKbiYRH4RHfASR.html' title='英雄本色2018' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t01ee71c89b5c55e7f5.jpg' alt='英雄本色2018' /> <span class='hint'>2018</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>英雄本色2018</span>
+			<span class='s2'>4.7</span></p>
+           <p class='star'>主演：王凯 马天宇 王大陆 余皑磊 林雪</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/gabjZBH4QHn5SB.html' title='狄仁杰之四大天王' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p2.qhimg.com/d/dy_2c236e557402b176f7eb78e85d8621ac.jpg' alt='狄仁杰之四大天王' /> <span class='hint'>2018</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>狄仁杰之四大天王</span>
+			<span class='s2'>6.3</span></p>
+           <p class='star'>主演：赵又廷 冯绍峰 林更新 刘嘉玲 马思纯</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/gaXjaRH4QHr1TB.html' title='英伦对决' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p2.qhimg.com/d/dy_7b119ab8ba8884e9b9df698688cbb309.jpg' alt='英伦对决' /> <span class='hint'>2017</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>英伦对决</span>
+			<span class='s2'>7.1</span></p>
+           <p class='star'>主演：成龙 皮尔斯·布鲁斯南 刘涛 夏莉·墨菲 斯蒂芬·霍根</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/hKvrZRH4RHH6Sx.html' title='天才枪手' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t0168742b47e8c72ca7.jpg' alt='天才枪手' /> <span class='hint'>2017</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>天才枪手</span>
+			<span class='s2'>8.1</span></p>
+           <p class='star'>主演：茱蒂蒙·琼查容苏因 Eisaya Hosuwan 披纳若·苏潘平佑 查侬·散顶腾古 Chutimon Chuengcharoensukying</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/fqvrZxH4QnP6SR.html' title='龙之战 2017' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p4.qhimg.com/d/dy_c66b58f265e141ed887bcfdb5fb8c220.jpg' alt='龙之战 2017' /> <span class='hint'>2017</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>龙之战 2017</span>
+			<span class='s2'>6.4</span></p>
+           <p class='star'>主演：刘佩琦 曹云金 罗昱焜 李子雄 修庆</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/hqTmYhH4RXX5UR.html' title='银魂' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t01fd4d821e975cf871.jpg' alt='银魂' /> <span class='hint'>2017</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>银魂</span>
+			<span class='s2'>7.0</span></p>
+           <p class='star'>主演：小栗旬 菅田将晖 桥本环奈 长泽雅美 冈田将生</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/m/g6fiZBH4QXP7Tx.html' title='特工学姐007' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p1.qhimg.com/d/dy_0bb34348390e1aefea68e7d5c7203c80.jpg' alt='特工学姐007' /> <span class='hint'>2017</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>特工学姐007</span>
+			<span class='s2'></span></p>
+           <p class='star'>主演：马雪阳 韦海珊 李晟烨</p>
+          </div>
+         </a></li>                 </ul>
+            </div>
+        </div>
+
+
+        <div class="single-strong">最新热门电视剧推荐<span class="chak"><a href="./tv.php">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                    <li class='item'><a class='js-tongjic' href='play.php?play=/tv/QbNsbH7lRGLnNX.html' title='如懿传'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t01bc1622155c619909.jpg' alt='如懿传' />
+          <span class='hint'>更新至44集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>如懿传</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：周迅 霍建华 张钧甯 李纯 董洁</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/RLJpbH7lRGHlNX.html' title='延禧攻略'>
+         <div class='cover g-playicon'>
+          <img src='http://p1.qhimg.com/d/dy_da7d35c29cc8b929bfb25a056d476a5f.jpg' alt='延禧攻略' />
+          <span class='hint'>70集全</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>延禧攻略</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：秦岚 聂远 吴谨言 佘诗曼 张嘉倪</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/QLhpbH7lRGLlOX.html' title='桃花依旧笑春风'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/d/dy_85a581e74d65180df3159ea2573134e3.jpg' alt='桃花依旧笑春风' />
+          <span class='hint'>60集全</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>桃花依旧笑春风</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：苗圃 陈龙 郑国霖 邵峰 杜源</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/PbFsbn7lRGLtMH.html' title='长城红'>
+         <div class='cover g-playicon'>
+          <img src='http://p5.qhimg.com/d/dy_d2b688a148da8952d514bee29a515e1d.jpg' alt='长城红' />
+          <span class='hint'>36集全</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>长城红</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：任帅 刘思言 瑛子 齐奎 王劲松</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/RLhocH7lRGLoMn.html' title='胜利之路'>
+         <div class='cover g-playicon'>
+          <img src='http://p9.qhimg.com/d/dy_921026f70a452a0a9da36e72b5a84ec9.jpg' alt='胜利之路' />
+          <span class='hint'>38集全</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>胜利之路</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：郭京飞 郭珍霓 高洋 冯恩鹤 李亭哲</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/PrNqb07lRGPnMX.html' title='斗破苍穹'>
+         <div class='cover g-playicon'>
+          <img src='http://p6.qhimg.com/d/dy_46b215c1cd1ee6b8e253b730e350d171.' alt='斗破苍穹' />
+          <span class='hint'>更新至12集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>斗破苍穹</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：吴磊 林允 李沁 陈楚河 辛芷蕾</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/PrNobn7lRGHrOX.html' title='香蜜沉沉烬如霜'>
+         <div class='cover g-playicon'>
+          <img src='http://p8.qhimg.com/d/dy_9b04f91997faf577a5bd7455a598296a.' alt='香蜜沉沉烬如霜' />
+          <span class='hint'>63集全</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>香蜜沉沉烬如霜</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：杨紫 邓伦 陈钰琪 罗云熙 王一菲</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/PrJraX7lRGLlMn.html' title='天盛长歌'>
+         <div class='cover g-playicon'>
+          <img src='http://p8.qhimg.com/t0184ec7ae22fb1af71.jpg' alt='天盛长歌' />
+          <span class='hint'>更新至52集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>天盛长歌</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：陈坤 倪妮 赵立新 倪大红 袁弘</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/PrhocX7lRGLoNX.html' title='月嫂先生'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/d/dy_a49ebedd6e302144dd6bf53a5008952b.jpg' alt='月嫂先生' />
+          <span class='hint'>更新至40集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>月嫂先生</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：吴奇隆 李小冉 许娣 白志迪 王维维</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/Q4lxc07lRGPoNH.html' title='娘道'>
+         <div class='cover g-playicon'>
+          <img src='http://p3.qhimg.com/d/dy_657de9d88be28b9021dc8b338a609696.jpg' alt='娘道' />
+          <span class='hint'>更新至17集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>娘道</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：岳丽娜 于毅 张少华 史可 倪虹洁</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/R4lraH7lRGLqMH.html' title='我们的千阙歌'>
+         <div class='cover g-playicon'>
+          <img src='http://p4.qhimg.com/d/dy_172a2a6d80a6aa926954e69816cd5087.jpg' alt='我们的千阙歌' />
+          <span class='hint'>更新至42集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>我们的千阙歌</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：陈键锋 贾清 张倬闻 邬靖靖 王钧赫</p>
+          </div>
+         </a></li><li class='item'><a class='js-tongjic' href='play.php?play=/tv/RLRtan7lRGLuMX.html' title='天坑鹰猎'>
+         <div class='cover g-playicon'>
+          <img src='http://p5.qhimg.com/d/dy_c5e8c913543ff7f8c2256f4bbcd7b905.' alt='天坑鹰猎' />
+          <span class='hint'>更新至22集</span>
+         </div>
+         <div class='detail'>
+		 <p class='title g-clear'>
+           <span class='s1'>天坑鹰猎</span>
+           <span class='s2'></span></p>
+         <p class='star'>主演：王俊凯 文淇 蒋依依 叶筱玮 郑好</p>
+          </div>
+         </a></li>                </ul>
+            </div>
+        </div>
+
+        <div class="single-strong">最新热门综艺推荐<span class="chak"><a href="./zongyi.php">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                    		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/aMUlbHNy7JQ6FT.html' title='妻子的浪漫旅行' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/d/dy_bddea1a0172b2cd96a8c43fed49a7de1.jpg' alt='妻子的浪漫旅行' /> <span class='hint'>2018-09-12期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>妻子的浪漫旅行</span>
+			<span class='s2'>3.5</span></p>
+           <p class='star'>第4期：团长谢娜状况百出</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/ZsEob6Jv7JQ3Dz.html' title='快乐大本营' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t016ac3d4c9b6a0be35.jpg' alt='快乐大本营' /> <span class='hint'>2018-09-08期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>快乐大本营</span>
+			<span class='s2'></span></p>
+           <p class='star'>张翰杜江遭遇体能终极考验</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/Yc5la3Ny72k4Ez.html' title='中国好声音2018' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/t01095440ba58ef4a68.jpg' alt='中国好声音2018' /> <span class='hint'>2018-09-07期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>中国好声音2018</span>
+			<span class='s2'>2.8</span></p>
+           <p class='star'>第8期 谢霆锋亲自为刘郡格助演 宿涵再放...</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/Y85nbnNx8pAADj.html' title='明星大侦探 第三季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p4.qhimg.com/d/dy_8fdd467c33252d862b13755ffa0000bb.jpg' alt='明星大侦探 第三季' /> <span class='hint'>2018-01-26期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>明星大侦探 第三季</span>
+			<span class='s2'>5.5</span></p>
+           <p class='star'>13期：金条大劫案</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/Zs5sb3Ny7JA4DT.html' title='中餐厅 第二季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p1.qhimg.com/d/dy_99d9db3fac764b11309590332b55c330.jpg' alt='中餐厅 第二季' /> <span class='hint'>2018-09-07期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>中餐厅 第二季</span>
+			<span class='s2'></span></p>
+           <p class='star'>第8期：王俊凯遭遇川菜风波</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/YcIqbKlv7JQ3Ez.html' title='天天向上' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p9.qhimg.com/t014c70d4043684a33a.jpg' alt='天天向上' /> <span class='hint'>2018-09-09期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>天天向上</span>
+			<span class='s2'>4.7</span></p>
+           <p class='star'>罗志祥变身“逻辑强”惊艳全场</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/ZMQlbHNy7Jc8FT.html' title='我就是演员' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/d/dy_7a1ce42eb3e15fa915ad9f9bb33a8afa.jpg' alt='我就是演员' /> <span class='hint'>2018-09-08期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>我就是演员</span>
+			<span class='s2'>6.3</span></p>
+           <p class='star'>第1期：药神小戏骨飙戏子怡含泪</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/Z8AlbnNy7JA5Ej.html' title='新舞林大会 2018' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p5.qhimg.com/d/dy_06d047461ef9230ad264ff1a3c7df226.' alt='新舞林大会 2018' /> <span class='hint'>2018-09-13期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>新舞林大会 2018</span>
+			<span class='s2'>7.1</span></p>
+           <p class='star'>会员版第8期:Baby变"精分"热巴自曝腰伤</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/acUpaadv7JMAED.html' title='爱情保卫战' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p4.qhimg.com/d/dy_4eb8c04f29fa077f0f9af72969996506.jpg' alt='爱情保卫战' /> <span class='hint'>2018-09-13期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>爱情保卫战</span>
+			<span class='s2'>8.1</span></p>
+           <p class='star'>男女双方不愿付出 爱情之路越走越艰难</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/Z8IpbHNy7Jc3Dz.html' title='口红王子' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p6.qhimg.com/d/dy_307a28080f5fccd423ecff5fb94846b1.jpg' alt='口红王子' /> <span class='hint'>2018-09-11期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>口红王子</span>
+			<span class='s2'>6.4</span></p>
+           <p class='star'>第2期：锦鲤小姐姐杨超越上线 本命妆好...</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/YcEmcXNy72g7Ez.html' title='我家那小子' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p3.qhimg.com/d/dy_dfbb9bebbc6a71d11a4f273e5b17ec30.jpg' alt='我家那小子' /> <span class='hint'>2018-09-08期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>我家那小子</span>
+			<span class='s2'>7.0</span></p>
+           <p class='star'>第10期：钱枫相亲“首秀”</p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/va/acQka3NxA2M8ET.html' title='歌手 2018' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p2.qhimg.com/d/dy_64ed25b7028d4302bfa71bd343fc6e11.' alt='歌手 2018' /> <span class='hint'>2018-04-20期</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>歌手 2018</span>
+			<span class='s2'></span></p>
+           <p class='star'>第14期：华晨宇全程高能吟唱</p>
+          </div>
+         </a></li>                 </ul>
+            </div>
+        </div>
+
+        <div class="single-strong">最新热门动漫推荐<span class="chak"><a href="./dongman.php">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                    		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/PkPmcJ7lLYGwDD.html' title='罗布奥特曼 普通话版' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p4.qhimg.com/d/dy_f5856989aced270d3303fc3d3f5d4b68.' alt='罗布奥特曼 普通话版' /> <span class='hint'>更新至10集</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>罗布奥特曼 普通话版</span>
+			<span class='s2'>3.5</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/OkXsbcKkLoO2CT.html' title='粉红猪小妹(小猪佩奇)' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p6.qhimg.com/d/dy_7ef044e71f118046b1b44bb5a5cac589.jpg' alt='粉红猪小妹(小猪佩奇)' /> <span class='hint'>156集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>粉红猪小妹(小猪佩奇)</span>
+			<span class='s2'></span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/PkLtap7kMICvCj.html' title='汪汪队立大功全集' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p6.qhimg.com/d/dy_fc7282fed5941d526340232701fe46ee.jpg' alt='汪汪队立大功全集' /> <span class='hint'>更新至104集</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>汪汪队立大功全集</span>
+			<span class='s2'>2.8</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/PE4mcJ7kNI33Dz.html' title='汪汪队立大功 第4季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p7.qhimg.com/d/dy_27ae531523fd0a8053c5429a303a2a34.jpg' alt='汪汪队立大功 第4季' /> <span class='hint'>26集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>汪汪队立大功 第4季</span>
+			<span class='s2'>5.5</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/QkTqaZ7lLYCvCj.html' title='精灵梦叶罗丽 第六季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p5.qhimg.com/d/dy_2b2869dc4ea60a63b81975213b2d6bd6.jpg' alt='精灵梦叶罗丽 第六季' /> <span class='hint'>更新至12集</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>精灵梦叶罗丽 第六季</span>
+			<span class='s2'></span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/OUPrbp7kNIKuCT.html' title='熊出没之探险日记' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p0.qhimg.com/d/dy_5a66a8d79616dce9650d3fca8a62dc75.jpg' alt='熊出没之探险日记' /> <span class='hint'>52集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>熊出没之探险日记</span>
+			<span class='s2'>4.7</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/O0DncMDbLYC2DD.html' title='航海王' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p4.qhimg.com/d/dy_1cf688c4fd8403a25dc03e6b8ddad9b5.jpg' alt='航海王' /> <span class='hint'>更新至852集</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>航海王</span>
+			<span class='s2'>6.3</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/QEPtcZ7jM4CzCz.html' title='粉红猪小妹(小猪佩奇)第二季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p8.qhimg.com/d/dy_4f89fa462a1f510f21ae69d0a61c3b58.jpg' alt='粉红猪小妹(小猪佩奇)第二季' /> <span class='hint'>52集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>粉红猪小妹(小猪佩奇)第二季</span>
+			<span class='s2'>7.1</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/Pk8ka57kL471DT.html' title='新猫和老鼠 第二季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p9.qhimg.com/d/dy_0753ab1913906aa7eb976becfe63f39e.jpg' alt='新猫和老鼠 第二季' /> <span class='hint'>78集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>新猫和老鼠 第二季</span>
+			<span class='s2'>8.1</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/Pk8lb57lLYSyCD.html' title='猪猪侠之竞球小英雄 第2季' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p1.qhimg.com/d/dy_11dad05a5e63017f892bf691bf61cdc5.jpg' alt='猪猪侠之竞球小英雄 第2季' /> <span class='hint'>26集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>猪猪侠之竞球小英雄 第2季</span>
+			<span class='s2'>6.4</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/OkLmap7lLY3yDj.html' title='精诚的心群英传奇' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p2.qhimg.com/d/dy_a5084fc66eea1bc5a58c4ab80aee77c6.' alt='精诚的心群英传奇' /> <span class='hint'>50集全</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>精诚的心群英传奇</span>
+			<span class='s2'>7.0</span></p>
+           <p class='star'></p>
+          </div>
+         </a></li> 		    <li  class='item'><a class='js-tongjic' href='play.php?play=/ct/QETtbZ7lLIazCz.html' title='幻界王' target='_blank'>
+         <div class='cover g-playicon'>
+          <img src='http://p9.qhimg.com/d/dy_43ab588f0d37af25aeeb781df0bdd220.' alt='幻界王' /> <span class='hint'>更新至16集</span>
+         </div>
+         <div class='detail'>
+          <p class='title g-clear'>
+		    <span class='s1'>幻界王</span>
+			<span class='s2'></span></p>
+           <p class='star'></p>
+          </div>
+         </a></li>                 </ul>
+            </div>
+        </div>
+
+        <div class="link1">
+            <div class="single-strong">友情链接 <span class="chak_link"></span></div>
+        </div>
+        <div class="link">
+            <p>
+                <MARQUEE scrollAmount=5>
+                    <a class="link_list" href="http://www.85tv.cn/" target="_black">蜗牛影院</a>
+<a class="link_list" href="http://www.85tv.cn/" target="_black">蜗牛影院</a>
+<a class="link_list" href="http://www.85tv.cn/" target="_black">蜗牛影院</a>                    <a class="link_list" href="/" target="_black">申请友联</a>
+                </MARQUEE>
+            </p>
+        </div>
+    </section>
+    <div class="foornav">
+    <a href="http://www.cineplex.com/"><span><img src="images/index.png"/>首页</span></a>
+    <a href="./movie.php"><span><img src="images/video.png"/>电影</span></a>
+    <a href="./tv.php"><span><img src="images/dianshi.png"/>电视剧</span></a>
+    <a href="./zongyi.php"><span><img src="images/dianshiju.png"/>综艺</span></a>
+    <a href="yhq.php"><span><img src="http://vip.woniuwl.com/images/gouwu.png"/>购物</span></a></div>
+<footer class="footer">
+    <div class="branding branding-black">
+        <div class="container" style="text-align: center;">
+            <h2>蜗牛影院 - 海量高清VIP视频免费观看</h2>
+            <a target="blank" class="gobtn" style="padding: 15px 15px;" href="http://wpa.qq.com/msgrd?v=3&uin=439034617&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:439034617:41" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+        </div>
+    </div>
+    <p style="padding: 0 4px;">Copyright © 蜗牛影院 | <a
+                href="javascript:alert('本站提供的最新电影和电视剧资源均系收集于各大视频网站,本站只提供web页面服务,并不提供影片资源存储,也不参与录制、上传、若本站收录的节目无意侵犯了贵司版权，请给439034617@qq.com邮箱地址来信,我们会及时处理和回复,谢谢！');" target="_blank" title="本站声明">本站声明</a> |
+        <a href="http://www.miitbeian.gov.cn/" target="_Blank" rel="nofollow">冀ICP备18014469号</a>
+        <br/>
+        <br/>
+        <script src="https://s4.cnzz.com/z_stat.php?id=1254543271&web_id=1254543271" language="JavaScript"></script>        <br/>
+</footer>
+<div class="rewards-popover-mask" etap="rewards-close"></div>
+<div class="rewards-popover">
+    <h3>觉得本站还不错就打赏一下吧！</h3>
+    <div class="rewards-popover-item">
+        <h4>支付宝扫一扫打赏</h4>
+        <img src="images/zfb.png">    </div>
+    <div class="rewards-popover-item">
+        <h4>微信扫一扫打赏</h4>
+        <img src="images/wx.png">    </div>
+    <span class="rewards-popover-close" etap="rewards-close"></span>
+</div>
+<script type='text/javascript' src='js/main.js'></script>
+    </body>
+    </html>

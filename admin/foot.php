@@ -1,0 +1,1 @@
+<div id="footer">Copyright &copy; <span style="color:#FF5200">www.85tv.cn</span><span style="color:#0065FF">蜗牛影院</span> , Powered by <a href="http://www.85tv.cn" target="_blank">蜗牛影院</a></div>
