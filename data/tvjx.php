@@ -25,27 +25,28 @@ preg_match_all($vimg, $info, $imgarr);
 preg_match_all($nname, $info, $nnamearr);
 $i = 0;
 while ($i < 12) {
-	$gul = $listarr[1][$i];
-	$cd = $host . "/alist.php?id=" . $gul;
-	$guq = $listarr[1][$i];
-	$_GET["id"] = $gul;
-	$zimg = $imgarr[1][$i];
-	$zname = $namearr[1][$i];
-	$nname = $nnamearr[1][$i];
-	$zstar = $stararr[1][$i];
-	$jiami = base64_encode($gul);
-	$chuandi = "play.php?play=" . $gul;
-?><li class='item'><a class='js-tongjic' href='<?php echo $chuandi;?>' title='<?php echo $zname;?>'>
-         <div class='cover g-playicon'>
-          <img src='<?php echo $zimg;?>' alt='<?php echo $zname;?>' />
-          <span class='hint'><?php echo $nname;?></span>
-         </div>
-         <div class='detail'>
-		 <p class='title g-clear'>
-           <span class='s1'><?php echo $zname;?></span>
-           <span class='s2'></span></p>
-         <p class='star'><?php echo $zstar;?></p>
-          </div>
-         </a></li><?php
-	$i = $i + 1;
+    $gul = $listarr[1][$i];
+    $cd = $host . "/alist.php?id=" . $gul;
+    $guq = $listarr[1][$i];
+    $_GET["id"] = $gul;
+    $zimg = $imgarr[1][$i];
+    $zname = $namearr[1][$i];
+    $nname = $nnamearr[1][$i];
+    $zstar = $stararr[1][$i];
+    $jiami = base64_encode($gul);
+    $chuandi = "play.php?play=" . $gul;
+    ?>
+    <li class='item'><a class='js-tongjic' href='<?php echo $chuandi; ?>' title='<?php echo $zname; ?>'>
+        <div class='cover g-playicon'>
+            <img src='<?php echo $zimg; ?>' alt='<?php echo $zname; ?>'/>
+            <span class='hint'><?php echo $nname; ?></span>
+        </div>
+        <div class='detail'>
+            <p class='title g-clear'>
+                <span class='s1'><?php echo $zname; ?></span>
+                <span class='s2'></span></p>
+            <p class='star'><?php echo $zstar; ?></p>
+        </div>
+    </a></li><?php
+    $i = $i + 1;
 }

@@ -102,8 +102,8 @@ $link = $aik['pcdomain'];
         <div class="b-listtab-main">
             <div class="s-tab-main">
                 <ul class="list g-clear">
-                    <?php include './data/yhq.php'; ?>
-                    <?php include './data/yhq1.php'; ?>
+<!--                    --><?php //include './data/yhq.php'; ?>
+<!--                    --><?php //include './data/yhq1.php'; ?>
                 </ul>
             </div>
         </div>

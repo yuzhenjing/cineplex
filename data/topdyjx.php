@@ -21,24 +21,26 @@ preg_match_all($nname, $info, $nnamearr);
 preg_match_all($fname, $info, $fnamearr);
 $i = 0;
 while ($i < 12) {
-	$gul = $listarr[1][$i];
-	$zimg = $imgarr[1][$i];
-	$zname = $namearr[1][$i];
-	$fname = $fnamearr[1][$i];
-	$nname = $nnamearr[1][$i];
-	$zstar = $stararr[1][$i];
-	$player = "play.php?play=" . $gul;
-?>
-		    <li  class='item'><a class='js-tongjic' href='<?php echo $player;?>' title='<?php echo $zname;?>' target='_blank'>
-         <div class='cover g-playicon'>
-          <img src='<?php echo $zimg;?>' alt='<?php echo $zname;?>' /> <span class='hint'><?php echo $nname;?></span>
-         </div>
-         <div class='detail'>
-          <p class='title g-clear'>
-		    <span class='s1'><?php echo $zname;?></span>
-			<span class='s2'><?php echo $fname;?></span></p>
-           <p class='star'><?php echo $zstar;?></p>
-          </div>
-         </a></li> <?php
-	$i = $i + 1;
+    $gul = $listarr[1][$i];
+    $zimg = $imgarr[1][$i];
+    $zname = $namearr[1][$i];
+    $fname = $fnamearr[1][$i];
+    $nname = $nnamearr[1][$i];
+    $zstar = $stararr[1][$i];
+    $player = "play.php?play=" . $gul;
+    ?>
+    <li class='item'><a class='js-tongjic' href='<?php echo $player; ?>' title='<?php echo $zname; ?>' target='_blank'>
+            <div class='cover g-playicon'>
+                <img src='<?php echo $zimg; ?>' alt='<?php echo $zname; ?>'/>
+                <span class='hint'><?php echo $nname; ?></span>
+            </div>
+            <div class='detail'>
+                <p class='title g-clear'>
+                    <span class='s1'><?php echo $zname; ?></span>
+                    <span class='s2'><?php echo $fname; ?></span>
+                </p>
+                <p class='star'><?php echo $zstar; ?></p>
+            </div>
+        </a></li> <?php
+    $i = $i + 1;
 }

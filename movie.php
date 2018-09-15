@@ -13,12 +13,12 @@ include "./inc/init.php";
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta http-equiv="cache-control" content="no-siteapp">
-<title>看电影-2017最新好看的最新电影-<?php echo $aik["title"];?></title>
+<title>看电影-当下最新最好电影-<?php echo $aik["title"];?></title>
 <link rel='stylesheet' id='main-css'  href='css/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='main-css'  href='css/movie.css' type='text/css' media='all' />
 <script type='text/javascript' src='http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js?ver=0.5'></script>
-<meta name="keywords" content="看电影-2017最新好看的最新电影">
-<meta name="description" content="<?php echo $aik["title"];?>-看电影-2017最新好看的最新电影">
+<meta name="keywords" content="看电影-当下最新最好电影">
+<meta name="description" content="<?php echo $aik["title"];?>-看电影-当下最新最好电影">
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
 </head>
 <body>

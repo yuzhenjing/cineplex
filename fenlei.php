@@ -27,29 +27,31 @@ preg_match_all($vlist, $info, $listarr);
 preg_match_all($vstar, $info, $stararr);
 preg_match_all($vimg, $info, $imgarr);
 foreach ($namearr[1] as $key => $value) {
-	$gul = $yuming . $listarr[1][$key];
-	$cd = $host . "/alist.php?id=" . $gul;
-	$guq = $listarr[1][$key];
-	$_GET["id"] = $gul;
-	$zimg = $imgarr[1][$key];
-	$zname = $namearr[1][$key];
-	$zstar = $stararr[1][$key];
-	$jiami = base64_encode($gul);
-	$chuandi = $host . "/inc/b.php?id=" . $jiami;
-?> <li class='item'>
-    <a class='js-tongjic' href='<?php echo $chuandi;?>'>
-    <div class='cover g-playicon'>
-    <img src='<?php echo $zimg;?>'>
-    <span class='pay'>超清</span>                                <span class='hint'>2016</span>                            </div>
-    <div class='detail'>
-    <p class='title g-clear'>
-    <span class='s1'><?php echo $zname;?></span>
-    <span class='s2'>4.9</span>
-    </p>
-    <p class='star'><?php echo $zstar;?></p>
-    </div>
-    </a>
+    $gul = $yuming . $listarr[1][$key];
+    $cd = $host . "/alist.php?id=" . $gul;
+    $guq = $listarr[1][$key];
+    $_GET["id"] = $gul;
+    $zimg = $imgarr[1][$key];
+    $zname = $namearr[1][$key];
+    $zstar = $stararr[1][$key];
+    $jiami = base64_encode($gul);
+    $chuandi = $host . "/inc/b.php?id=" . $jiami;
+    ?>
+    <li class='item'>
+        <a class='js-tongjic' href='<?php echo $chuandi; ?>'>
+            <div class='cover g-playicon'>
+                <img src='<?php echo $zimg; ?>'>
+                <span class='pay'>超清</span> <span class='hint'>2016</span></div>
+            <div class='detail'>
+                <p class='title g-clear'>
+                    <span class='s1'><?php echo $zname; ?></span>
+                    <span class='s2'>4.9</span>
+                </p>
+                <p class='star'><?php echo $zstar; ?></p>
+            </div>
+        </a>
     </li>  <?php
 }
-?><div monitor-desc='分页' id='js-ew-page' data-block='js-ew-page'  class='ew-page'>
-<a href='<?php echo $pageurl;?>' target='_self' class='btn'>下一页&gt;</a></div>
+?>
+<div monitor-desc='分页' id='js-ew-page' data-block='js-ew-page' class='ew-page'>
+    <a href='<?php echo $pageurl; ?>' target='_self' class='btn'>下一页&gt;</a></div>
