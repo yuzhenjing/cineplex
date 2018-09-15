@@ -22,10 +22,11 @@ include('admincore.php');
 <table width="100%" border="0" align="center" cellpadding="5" cellspacing="1" class="tablecss">
 <table width="100%" border="0" align="center" cellpadding="5" cellspacing="1" class="tablecss">
 <tr class="thead">
-<td colspan="10" align="center">尝鲜影片发布<a href="http://www.85tv.cn/" target="_blank">【发布说明】</a></td>
+<td colspan="10" align="center">尝鲜影片发布<a href="http://love.5918j.com/" target="_blank">【发布说明】</a></td>
 </tr>
 <tr style="color:#999;">
-    <td valign="top" style="padding-left:20px;"><span style="color:blue">★、提示：你可以在此处自定义添加自己喜爱的影片发布至首页电影尝鲜板块。</br>
+    <td valign="top" style="padding-left:20px;">
+        <span style="color:blue">★、提示：你可以在此处自定义添加自己喜爱的影片发布至首页电影尝鲜板块。</br>
     </td>
 </tr>
 <?php
