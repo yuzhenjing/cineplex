@@ -88,7 +88,7 @@ include('head.php'); ?>
                 </tr>
                 <tr id="fbox">
                     <td colspan="10" align="left" style="padding-left:20px;">
-                        <input id="configSave" type="submit" value="     保 存     ">
+                        <input id="configSave" type="submit" value=" 保 存">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         (删除一条请清空该条的片名后保存)
                     </td>

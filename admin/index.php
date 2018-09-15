@@ -5,9 +5,9 @@ include('config.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>万象影院管理后台 - Powered by www.85tv.cn</title>
+<title>万象影院管理后台 - Powered by love.5918j.com</title>
 <meta name="keywords" content="万象影院源码" />
-<meta name="description" content="万象影院，www.85tv.cn" />
+<meta name="description" content="万象影院，love.5918j.com" />
 <link href="./images/woaik.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" type="image/x-icon" href="./../favicon.ico">
 </head>
@@ -59,7 +59,7 @@ include('config.php');
   </tr>  
 
   <tr>
-    <td colspan="2" style="line-height:220%; text-indent:28px;">欢迎使用本程序，感谢朋友们的支持！</br>更多使用帮助及BUG反馈请移步：<a href="http://www.85tv.cn" target="_blank">http://www.85tv.cn</a></font></br></br>
+    <td colspan="2" style="line-height:220%; text-indent:28px;">欢迎使用本程序，感谢朋友们的支持！</br>更多使用帮助及BUG反馈请移步：<a href="http://love.5918j.com" target="_blank">http://love.5918j.com</a></font></br></br>
 3.4版本更新：</br>
 1.修复3.3版本不支持二级目录的BUG！ </br>
 2.修复磁力及站外搜索失效的问题。 </br>

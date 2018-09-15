@@ -6,7 +6,7 @@
 		<li><a href="./"<?php echo $nav=='home'?' class="this"':''?>>首页</a></li>
 		<li><a href="./setting.php"<?php echo $nav=='setting'?' class="this"':''?>>设置</a></li>
 		<li><a href="./seturl.php" <?php echo $nav=='seturl'?' class="this"':''?>>影片发布</a></li>
-		<li><a href="http://www.85tv.cn" target="_blank">官网</a></li>
+		<li><a href="http://love.5918j.com" target="_blank">官网</a></li>
       </ul>
   </div>
 </div>

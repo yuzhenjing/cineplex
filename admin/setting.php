@@ -33,7 +33,7 @@ include('admincore.php');
 <tr>
     <td width="125" align="right" valign="middle" class="s_title">网站域名：</td>
     <td width="690" valign="middle"><input type="text" name="aik[pcdomain]" id="aik_pcdomain" value="<?php echo $aik['pcdomain']?>" size="20"></br>
-      <span class="gray tips">域名填写最后要加“/”，如 http://www.85tv.cn/ 或者http://www.85tv.cn/1/</span></td>
+      <span class="gray tips">域名填写最后要加“/”，如 http://love.5918j.com/ 或者http://love.5918j.com/1/</span></td>
 </tr>
 <tr>
     <td width="125" align="right" valign="middle" class="s_title">首页标题：</td>
@@ -245,7 +245,7 @@ include('admincore.php');
     <td valign="top"><div class="cl5"></div><textarea name="aik[end_ad]" cols="80" rows="3"><?php echo $aik['end_ad'];?></textarea></td>
 </tr>
 <tr class="thead">
-<td colspan="10" align="center">大淘客设置<a href="http://www.85tv.cn" target="_blank">【配置教程】</a></td>
+<td colspan="10" align="center">大淘客设置<a href="http://love.5918j.com" target="_blank">【配置教程】</a></td>
 </tr>
 <tr>
     <td width="150" align="right" valign="middle" class="s_title">大淘客地址：</td>
@@ -256,7 +256,7 @@ include('admincore.php');
     <td valign="top"></a><div class="cl5"></div><textarea name="aik[dtk_id]" cols="80" rows="1"><?php echo $aik['dtk_id']?></textarea></td>
 </tr>
 <tr class="thead">
-<td colspan="10" align="center">视频侵权设置<a href="http://www.85tv.cn" target="_blank">【设置说明】</a></td>
+<td colspan="10" align="center">视频侵权设置<a href="http://love.5918j.com" target="_blank">【设置说明】</a></td>
 </tr>
 <tr>
     <td width="150" align="right" valign="middle" class="s_title">侵权名称：</td>
