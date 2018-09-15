@@ -5,9 +5,9 @@ include('config.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>蜗牛影院管理后台 - Powered by www.85tv.cn</title>
-<meta name="keywords" content="蜗牛影院源码" />
-<meta name="description" content="蜗牛影院，www.85tv.cn" />
+<title>万象影院管理后台 - Powered by www.85tv.cn</title>
+<meta name="keywords" content="万象影院源码" />
+<meta name="description" content="万象影院，www.85tv.cn" />
 <link href="./images/woaik.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" type="image/x-icon" href="./../favicon.ico">
 </head>
@@ -18,7 +18,7 @@ include('config.php');
 
       <table width="600" border="0" class="tablecss" cellspacing="0" cellpadding="0" align="center">
    <tr>
-    <td colspan="2" align="center">欢迎使用蜗牛影院管理系统！</td>
+    <td colspan="2" align="center">欢迎使用万象影院管理系统！</td>
     </tr>
   <tr>
     <td align="right">当前使用版：</td>

@@ -97,7 +97,7 @@ function ck(){
 <form name="loginform" method="post" action="" onsubmit="return ck();" style="padding:0;">
 	<table border="0" cellspacing="1" cellpadding="0" width="400" class="tablecss" style="margin-top:100px; overflow:hidden;">
 <tr class="header">
-			<td colspan="4" align="center" style=" height:30px; font-size:18px; font-weight:bold;">蜗牛影院系统登陆</td>
+			<td colspan="4" align="center" style=" height:30px; font-size:18px; font-weight:bold;">万象影院系统登陆</td>
 		</tr>
 		<tr>
 			<td width="117" align="right" valign="middle" class="tx" style="font-size:16px;">用户名：</td>

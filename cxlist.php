@@ -117,8 +117,9 @@ include "header.php";
                             $response = str_replace("<li>", "<li class='item'>", $response);
                             $response = str_replace("/index.php/show/index/", "mplay.php?mso=", $response);
                             echo $response;
-                            include "./data/yhq1.php";
-                            ?>        </ul>
+//                            include "./data/yhq1.php";
+                            ?>
+                        </ul>
                     </div>
 
 
