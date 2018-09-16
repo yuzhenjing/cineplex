@@ -1,0 +1,105 @@
+﻿.tips {
+	text-align: center;
+}
+body {
+	text-align: center;
+}
+html {
+	font-family: "helvetica neue",tahoma,arial,"hiragino sans gb",Simsun,sans-serif; font-size: 62.5%;
+}
+li {
+	list-style: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+body {
+	line-height: 1.333; font-size: 12px;
+}
+.centers {
+	margin: 10px auto; width: 1000px;
+}
+.searchs {
+	margin: 10px auto; border-radius: 2px; border: 3px solid rgb(239, 239, 239); border-image: none; color: rgb(85, 85, 85); display: inline-block;
+}
+.searchs .from {
+	margin: 0px auto; border: 1px solid rgb(204, 204, 204); border-image: none; display: inline-block; position: relative;
+}
+.searchs .text {
+	background: rgb(255, 255, 255); padding: 4px 20px; outline: 0px; border: currentColor; border-image: none; width: 420px; height: 34px; color: rgb(51, 51, 51); line-height: 34px; font-size: 16px; display: inline;
+}
+.searchs .button {
+	background: -ms-linear-gradient(rgb(255, 255, 255), rgb(247, 247, 247)); border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(215, 215, 215); padding: 0px 20px; border-image: none; height: 42px; color: rgb(53, 53, 53); overflow: hidden; font-family: "Microsoft Yahei","??????"; font-size: 18px; font-weight: 400; display: inline; cursor: pointer;
+}
+.logos_lists .wait {
+	font-family: "Microsoft Yahei","??????"; font-size: 14px;
+}
+.logos_lists dl dd {
+	font-family: "Microsoft Yahei","??????"; font-size: 14px;
+}
+.logos_lists h4 {
+	font-family: "Microsoft Yahei","??????"; font-size: 14px;
+}
+.tips {
+	padding: 20px 10px; font-family: "Microsoft Yahei","??????";
+}
+a img {
+	border: 0px currentColor; border-image: none; max-height: 450px;
+}
+img {
+	border: 0px currentColor; border-image: none; max-height: 450px;
+}
+.logos_lists h4 {
+	padding: 10px 0px; text-align: left; color: rgb(102, 102, 102); font-weight: 400;
+}
+.logos_lists dl {
+	background: rgb(255, 255, 255); margin: 10px; padding: 16px 14px; border-radius: 5px; border: 1px solid rgb(237, 237, 237); transition:border 0.2s linear, box-shadow 0.2s linear; border-image: none; float: left; position: relative; -webkit-transition: border linear .2s, box-shadow linear .2s; -o-transition: border linear .2s, box-shadow linear .2s; -moz-transition: border linear .2s, box-shadow linear .2s;
+}
+.logos_lists dl:hover {
+	border-color: rgba(82, 168, 236, 0.8); outline: 0px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(82,168,236,0.6); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+.logos_lists dl dt img {
+	width: 80px;
+}
+.logos_lists dl dd {
+	color: rgb(38, 38, 38); display: none;
+}
+.logos_lists .wait {
+	margin: 10px; padding: 26px 14px; color: rgb(153, 153, 153); float: left;
+}
+.head-v3 {
+	position: relative; z-index: 100; min-width: 1000px;
+}
+.head-v3 .navigation-inner {
+	margin: 0px auto; width: 980px; position: relative;
+}
+.navigation-up {
+	background: rgb(0, 183, 238); height: 60px;
+}
+.navigation-up .navigation-v3 {
+	margin-left: 155px; float: left;
+}
+.navigation-up .navigation-v3 ul {
+	float: left;
+}
+.navigation-up .navigation-v3 li {
+	font: 400 16px/59px "microsoft yahei"; color: rgb(255, 255, 255); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.navigation-up .navigation-v3 .nav-up-selected {
+	background: rgb(111, 211, 241);
+}
+.navigation-up .navigation-v3 .nav-up-selected-inpage {
+	background: rgb(111, 211, 241);
+}
+.navigation-up .navigation-v3 li h2 {
+	margin: 0px; padding: 0px; font-weight: 400;
+}
+.navigation-up .navigation-v3 li h2 a {
+	padding: 0px 25px; height: 60px; color: rgb(255, 255, 255); font-family: "microsoft yahei"; display: inline-block;
+}
+#footer {
+	text-align: center; color: rgb(17, 17, 17); margin-top: 30px;
+}

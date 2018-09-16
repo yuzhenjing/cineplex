@@ -15,9 +15,10 @@ include('./inc/aik.config.php');
                 <li class="menu-item"><a href="./zhibo.php">电视台直播</a></li>
                 <li class="menu-item "><a href="./zongyi.php">综艺</a>
                 <li class="menu-item"><a href="./dongman.php">动漫</a></li>
-                <li class="menu-item"><a href="mv.php">MV排行</a></li>
+<!--                <li class="menu-item"><a href="mv.php">MV排行</a></li>-->
+                <li class="menu-item"><a href="jiexi.php">自己解析</a></li>
 <!--                <li class="menu-item"><a href="yy.php?list=t10027.html">美女热舞</a></li>-->
-                <li class="menu-item "><a href="yhq.php?r=l&u=1">优惠券</a></li>
+                <li class="menu-item "><a href="yhq.php?r=index/index&u=1162916">优惠券</a></li>
                 <li class="menu-item"><a href="http://www.5918j.com" target="_blank">试玩赚钱专区</a></li>
             </ul>
         </div>
@@ -37,11 +38,11 @@ include('./inc/aik.config.php');
             </script>
         </div>
 
-        <span class="searchstart-on"><i class="icon-search"></i></span>
-        <span class="searchstart-off"><i class="icon-search"></i></span>
-        <form method="get" class="searchform" action="./seacher.php">
-            <button tabindex="3" class="sbtn" type="submit"><i class="fa"></i></button>
-            <input tabindex="2" class="sinput" name="sousuo" type="text" placeholder="输入关键字" value="">
-        </form>
+<!--        <span class="searchstart-on"><i class="icon-search"></i></span>-->
+<!--        <span class="searchstart-off"><i class="icon-search"></i></span>-->
+<!--        <form method="get" class="searchform" action="./seacher.php">-->
+<!--            <button tabindex="3" class="sbtn" type="submit"><i class="fa"></i></button>-->
+<!--            <input tabindex="2" class="sinput" name="sousuo" type="text" placeholder="输入关键字" value="">-->
+<!--        </form>-->
     </div>
 </header>

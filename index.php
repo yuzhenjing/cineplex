@@ -98,15 +98,15 @@ $link = $aik['pcdomain'];
                 </ul>
             </div>
         </div>
-<!--        <div class="single-strong">精品推荐<span class="chak"><a href="../yhq.php?r=l&u=1">查看更多</a></span></div>-->
-<!--        <div class="b-listtab-main">-->
-<!--            <div class="s-tab-main">-->
-<!--                <ul class="list g-clear">-->
-<!--                    --><?php //include './data/yhq.php'; ?>
-<!--                    --><?php //include './data/yhq1.php'; ?>
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="single-strong">精品推荐<span class="chak"><a href="../yhq.php?r=index/index&u=1162916">查看更多</a></span></div>
+        <div class="b-listtab-main">
+            <div class="s-tab-main">
+                <ul class="list g-clear">
+                    <?php include './data/yhq.php'; ?>
+                    <?php include './data/yhq1.php'; ?>
+                </ul>
+            </div>
+        </div>
 
         <div class="single-strong">最新热门电影推荐<span class="chak"><a href="./movie.php">查看更多</a></span></div>
         <div class="b-listtab-main">
