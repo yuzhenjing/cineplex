@@ -9,7 +9,16 @@ $aik = array(
     'banquanriqi' => '万象影院',
     'icp' => '浙ICP备18014469号',
     'foot' => '本站提供的最新电影和电视剧资源均系收集于各大视频网站,本站只提供web页面服务,并不提供影片资源存储,也不参与录制、上传、若本站收录的节目无意侵犯了贵司版权，请给137819913@qq.com邮箱地址来信,我们会及时处理和回复,谢谢！',
-    'tongji' => '<script src="https://s4.cnzz.com/z_stat.php?id=1254543271&web_id=1254543271" language="JavaScript"></script>',
+    'tongji' => '<script>
+                        var _hmt = _hmt || [];
+                        (function() {
+                          var hm = document.createElement("script");
+                          hm.src = "https://hm.baidu.com/hm.js?139bee39ac48e3466aef14e01a95a0bd";
+                          var s = document.getElementsByTagName("script")[0]; 
+                          s.parentNode.insertBefore(hm, s);
+                        })();
+                </script>
+',
     'changyan' => '',
     'SYyoulian' => '<a class="link_list" href="http://love.5918j.com/" target="_black">万象影院</a>
 <a class="link_list" href="http://love.5918j.com/" target="_black">万象影院</a>

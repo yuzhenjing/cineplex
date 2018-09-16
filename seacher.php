@@ -89,14 +89,6 @@ include "header.php";
             if ($x = strpos($str, "<div  class=\"a-engineso-ad\">")) { /* <div  class=\"a-engineso-ad\"> <div class=\"button-container g-clear\"> */
                 $str = substr($str, 0, $x);
             }
-            /*  print 'x1:'.$x;
-              print 'str1'.$str;*/
-            /*
-            * 替换指定字符：
-            * str_replace('被替换的字符','需要被替换后显示的字符'',在指定一堆字符串里)
-            *
-            *
-            */
             $tihuan = str_replace("/index.php?kw", "?", $str);
             $tihuan = str_replace("http://www.360kan.com", "play.php?play=", $tihuan);
             $tihuan = str_replace("?ptag=360kan.tv.free", "?ptag=woaik", $tihuan);
@@ -124,8 +116,36 @@ include "header.php";
             $tihuan = str_replace("><span class='btn-play-icon'>立即播放</span></a>", " hidden=\"hidde\"></a><span class='btn-play-icon'>请点击视频标题进行观看</span>", $tihuan);//立即播放-请点击视频标题进行观看
             $tihuan = str_replace("<span class=\"new-ico-jiao\"></span><span class='new-ico-fufei'></span><span class='new-ico-fufeitext js-fufeitext'></span>", "", $tihuan);
             $tihuan = str_replace("?vfm=", "&vfm=", $tihuan);
-            echo str_replace("http://v.youku.com", "splay.php?play=http://v.youku.com", $tihuan);
+            $tihuan = str_replace("http://v.youku.com", "splay.php?play=http://v.youku.com", $tihuan);
+            $szz = '#js-playicon" title="(.*?)"\s*data#';
+            $szz1 = '#a href="(.*?)" class="g-playicon js-playicon"#';
+            $szz2 = '#<img src="(.*?)" alt="(.*?)" \/>[\s\S]+?</div>#';
+//            $szz3 = '#(<b>(.*?)</b><span>(.*?)</span></li></ul>)?<ul class="index-(.*?)-ul g-clear">(\n\s*)?<li>(\n\s*)?<b>类型：</b>(\n\s*)?<span>(.*?)</span>#';
+//            $szz4 = '#<span class="playtype">(.*?)</span>#';
+//            $szz5 = '#href="(.*?)" class="btn#';
+            preg_match_all($szz, $tihuan, $sarr);
+            preg_match_all($szz1, $tihuan, $sarr1);
+            preg_match_all($szz2, $tihuan, $sarr2);
+            preg_match_all($szz3, $tihuan, $sarr3);
+            preg_match_all($szz4, $tihuan, $sarr4);
+            preg_match_all($szz5, $tihuan, $sarr5);
+            $one = $sarr[1];
+            $two = $sarr1[1];
+            $three = $sarr2[1];
             ?>
+            <div class="excerpts-wrapper">
+                <div class="excerpts">
+                    <div class="zhan">
+                        <ul>
+                            <?php
+                            foreach ($one as $ni => $cs) {
+                                echo "<li><a href='$two[$ni]'><b></b><img src='$three[$ni]'/><span>$cs</span></a></li>";
+                            }
+                            ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div style="clear: both;"></div>
             <p id="more"
                style="text-align: center;height: 50px;background: #eee;line-height: 50px;font-size: 16px;cursor: pointer;"
